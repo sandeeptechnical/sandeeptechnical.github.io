@@ -1,0 +1,81 @@
+.row{
+	row-width:1180px;
+	margin: 0 auto;
+	
+	
+	
+	
+}
+.logo{
+	height: 250px;
+	width:250px;
+	margin:30px;
+	title:sandeep;
+}
+.main-nav{
+ float:right;
+ margin-top:70px;
+ 
+}
+.main-nav li{
+	display:inline-block;
+	list-style:nowrap;
+	;margin-left:30px;
+}
+.main-nav li a{
+	color:#fff;
+	font-size:90%;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-width:30px;
+	
+}
+body{
+	font-size:25px;
+	overflow-x:hidden;
+}
+.main-content-header{
+	width:1180px;
+position:absolute;
+top:50%;
+
+}
+.btn{
+	display:inline-block;
+	padding:10px 30px;
+	font-weigth: lighter;
+	font-decoration:none;
+	border-radius:150px;
+	text-transform:uppercase;
+	transition: background-color 0.2s, border:0.2s ,color 0.2s;
+}
+.btn-full{
+	background-color:transparent;
+	color:blue;
+	margin-right:15px;
+	border:1px solid #bf55ec;
+}
+.btn-san{
+	background-color:transparent;
+	color:#502070;
+	margin-right:15px;
+	border:1px solid #fff;
+}
+.main-nav li a:hover{
+	border-bottom:2px solid #bf55ec;
+}
+.btn-full:hover{
+	background-color:#fff;
+}
+.btn-san:hover{
+	background-color:#fff;
+}
+.colorchange{
+	animation:colorchangesandeepchatterjee 1s infinite;
+}
+@keyframes  colorchangesandeepchatterjee{
+	0%{red;}
+	25%{pink;}
+	50%{grey;}
+	100%{white;}
+	}
